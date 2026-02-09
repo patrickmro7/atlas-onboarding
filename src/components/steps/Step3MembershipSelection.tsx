@@ -14,7 +14,7 @@ interface MembershipCardProps {
   onSelect: () => void;
 }
 
-function MembershipCard({ type, title, tagline, benefits, selected, onSelect }: MembershipCardProps) {
+function MembershipCard({ type: _type, title, tagline, benefits, selected, onSelect }: MembershipCardProps) {
   return (
     <motion.button
       type="button"

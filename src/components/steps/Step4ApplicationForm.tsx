@@ -10,7 +10,7 @@ import {
   ssnSchema,
   financialSchema,
 } from '@/lib/validation';
-import { formatPhoneNumber, formatSSN, formatDate, maskSSN, delay } from '@/lib/utils';
+import { formatSSN, formatDate, maskSSN, delay } from '@/lib/utils';
 import {
   INCOME_RANGE_LABELS,
   NET_WORTH_LABELS,
